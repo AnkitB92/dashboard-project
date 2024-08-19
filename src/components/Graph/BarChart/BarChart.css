@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: var(--cs-dark-blue);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selector {
+  width: 90px;
+  font-size: 0.9em;
+  appearance: none;
+  background-color: var(--cs-icon-bg);
+  color: lightgrey;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: var(--cs-icon-bg);
+  background-image: url('./icons/arrow_dn.svg');
+  background-repeat: no-repeat;
+  background-position: right 2px center;
+  background-size: 25px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.selector::-ms-expand {
+  display: none;
+}
